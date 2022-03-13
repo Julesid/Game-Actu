@@ -1,0 +1,157 @@
+h1 { 
+	font-size: 40px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+}
+
+h2 {
+    color: #fff;
+    font-family: Agency FB;
+	font-size: 30px;
+}
+
+h3 {
+    color: #fff;
+    font-family: Arial;
+}
+
+h4 {
+	color: #fff;
+	font-size: 14px;
+}	
+
+h5 {
+	color: #fff;
+	font-weight: bold;
+	font-size: 24px;
+}		
+
+h6 {
+	color: #fff;
+	font-weight: bold;
+	font-size: 22px;
+}	
+
+body{
+    background-color: #757575;
+    color: #666;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #282828;
+    color: #fff;
+    margin-top: 5;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 10px;
+    font-family: Agency FB;
+	font-size: 24px;
+}
+
+nav {
+    padding: 10px 10px 10000px 10px;
+    float: left;
+    width: 210px;
+    -webkit-transition: opacity 3s ease-in-out;
+    -moz-transition: opacity 3s ease-in-out;
+    transition: opacity 3s ease-in-out;
+	background-color: #c30000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+}
+
+nav a { 
+	text-decoration: none;
+}
+
+nav a:link { 
+	color: #000033;
+	font-size: 20px;
+}
+
+nav a:visited {
+	color: #fff;
+}
+
+nav a:hover {
+	color: #8c8c8c;
+}
+
+boutonplaystation {
+         background-color: #0070d1;
+         border: none;
+         color: white;
+         padding: 20px 34px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 20px;
+         margin: 4px 2px;
+         cursor: pointer;
+}
+
+boutonxbox {
+         background-color: #107b10;
+         border: none;
+         color: white;
+         padding: 20px 34px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 20px;
+         margin: 4px 2px;
+         cursor: pointer;
+}
+table
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+	text-align: center;
+}
+td
+{
+    border: 2px solid black;
+}
+th
+{
+    border: 1px solid black;
+}
+.green {
+  background-color: #9aff90;
+}
+.matos {
+	text-align: center;
+}
+.top {
+	text-align: right;
+}
+.acceuil {
+	text-align: center;
+}
+.sorties {
+	text-align: center;
+}
+.periph {
+	text-align: center;
+}
+
+ /* Style buttons */
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+} 
